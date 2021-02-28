@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,13 +12,17 @@
     <h1 id="title">freeCodecamp Survey Form</h1>
     <p id="description">Thank you for taking the time to help us to improve the platform</p>
         <fieldset>
+            <div class="demographic">
             <label for="name">Name</label><br>
             <input type="text" id="name" name="name" placeholder="Enter your name"><br>
             <label for="email">Email</label><br>
             <input type="email" id="Email" name="email" placeholder="Enter your email address"> <br>
             <label for="age">Age</label><br>
             <input type="number" id="age" name="number"><br>
-            <label for="roles">Which option describes your current role?</label>
+            </div>
+
+            <div class="c-role">
+            <p>Which option describes your current role?</p>
             <select name="roles" id="roles">
                 <option value="student">Student</option>
                 <option value="full time job">Full time Job</option>
@@ -26,8 +30,9 @@
                 <option value="prefer not to say">Prefer not to say</option>
                 <option value="other">Other</option>
             </select>
+        </div>
             <br>
-
+           <div class="recommendation">
             <p>Would you recommend to your friend?</p>
             <input type="radio" id="choice1" name="question" value="definitely">
             <label for="choice1">Definitely</label><br>
@@ -46,52 +51,53 @@
             <option value="Open source">Open Source</option>
           </select>
             <p>What would you like  us to improve?</p>
-            <input type="checkbox" id="" name="" value="">
-            <label for 
+            <input type="checkbox" name="option1" value="front end">
+            <label for="option1">Front end projects</label><br>
+
+            <input type="checkbox" name="option2" value="back end">
+            <label for="option2">Back end projects</label><br>
+
+            <input type="checkbox" name="option3" value="data visualization">
+            <label for="option3">Data visualization</label><br>
+
+            <input type="checkbox" name="option4" value="challenges">
+            <label for="option4">Challenges</label><br>
+
+            <input type="checkbox" name="option5" value="open source community">
+            <label for="option5">Open Source Community</label><br>
+
+            <input type="checkbox" name="option6" value="Gitter Help Rooms">
+            <label for="option6">Gitter Help Rooms</label><br>
+
+            <input type="checkbox" name="option7" value="vidoes">
+            <label for="option7">Videos</label><br>
+
+            <input type="checkbox" name="option8" value="city meetups">
+            <label for="option8">City Meetups</label><br>
+
+            <input type="checkbox" name="option9" value="wiki">
+            <label for="option9">Wiki</label><br>
+
+            <input type="checkbox" name="option10" value="Forum">
+            <label for="option10">Forum</label><br>
+
+            <input type="checkbox" name="option11" value="additional courses">
+            <label for="option11">Additional Courses</label>
+
+        </select>
+
           </div>
-        
+         
+          <div class="suggestion">
+            <p>Any comments or suggestions</p>
+              <textarea id="comment" name="comment" rows="4" cols="50">
+                 Enter you comments
+            </textarea>
+        </div>
 
+        <div class="button">
+            <input type="submit" valye="submit">
+        </div>
     </fieldset>
-
 </form>
-
-
 </body>
-
-=======
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Survey Form</title>
-</head>
-<body>
-    <form id="survey-form" action="index.html" method="post">
-    <h1 id="title">freeCodecamp Survey Form</h1>
-    <p id="description">Thank you for taking the time to help us to improve the platform</p>
-        <fieldset>
-            <label for="name">Name</label><br>
-            <input type="text" id="name" name="name" placeholder="Enter your name"><br>
-            <label for="email">Email</label><br>
-            <input type="email" id="Email" name="email" placeholder="Enter your email address"> <br>
-            <label for="age">Age</label><br>
-            <input type="number" id="age" name="number"><br>
-            <label for="roles">Which option describes your current role?</label>
-            <select name="roles" id="roles">
-                <option value="student">Student</option>
-                <option value="full time job">Full time Job</option>
-                <option value="full time learner">Full time Learner</option>
-                <option value="prefer not to say">Prefer not to say</option>
-                <option value="other">Other</option>
-            </select>
-            <br>
-            <label for="recommend">Would you recommend to your friend?</label>
-            <input type="radio" id="definitely"
-
-
-</body>
-
->>>>>>> bcb2e2ce5eeb71945be790c08b67a4e23d545051
-</html>
