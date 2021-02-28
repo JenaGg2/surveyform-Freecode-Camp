@@ -1,0 +1,16 @@
+body,html {
+    text-align: center;
+    background-color: rgb(77, 77, 160);
+    color: white;
+}
+
+* {
+    box-size: border-b;
+}
+
+
+.box {
+    background-color: cadetblue;
+    margin: 0 auto;
+    padding: 0;
+}

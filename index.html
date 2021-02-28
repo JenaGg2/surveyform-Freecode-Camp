@@ -5,21 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" >
     <title>Survey Form</title>
 </head>
 <body>
-    <form id="survey-form" action="index.html" method="post">
-    <h1 id="title">freeCodecamp Survey Form</h1>
-    <p id="description">Thank you for taking the time to help us to improve the platform</p>
+    <header>
+        <form id="survey-form" action="index.html" method="post">
+        <h1 id="title">freeCodecamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us to improve the platform</p>
+        </header>
         <fieldset>
-            <div class="demographic">
-            <label for="name">Name</label><br>
+         <div class="box">
+          <div class="demographic">
+            <label for="name" id="name-label">Name</label><br>
             <input type="text" id="name" name="name" placeholder="Enter your name"><br>
-            <label for="email">Email</label><br>
+            <label for="email" id="email-label">Email</label><br>
             <input type="email" id="Email" name="email" placeholder="Enter your email address"> <br>
-            <label for="age">Age</label><br>
+            <label for="age" id="number-label">Age</label><br>
             <input type="number" id="age" name="number"><br>
-            </div>
+        </div>
 
             <div class="c-role">
             <p>Which option describes your current role?</p>
@@ -95,9 +99,10 @@
             </textarea>
         </div>
 
-        <div class="button">
-            <input type="submit" valye="submit">
+        <div>
+            <input type="submit" valye="submit" id="submit">
         </div>
+    </div>
     </fieldset>
 </form>
 </body>
