@@ -15,19 +15,18 @@
     </header>
         <form id="survey-form" action="index.html" method="post">
         <fieldset>
-         <div class="box">
           <div class="demographic">
             <label for="name" id="name-label">Name</label><br>
             <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
             <label for="email" id="email-label">Email</label><br>
             <input type="email" id="Email" name="email" placeholder="name@hotmail.com" required> <br>
             <label for="age" id="number-label">Age</label><br>
-            <input type="number" id="age" name="number"><br>
+            <input type="number" id="age" name="number" min="1" max="100"><br>
         </div>
 
             <div class="c-role">
             <p>Which option describes your current role?</p>
-            <select name="roles" id="roles">
+            <select name="roles" id="dropdown">
                 <option value="student">Student</option>
                 <option value="full time job">Full time Job</option>
                 <option value="full time learner">Full time Learner</option>
@@ -48,7 +47,7 @@
           
           <div class="feedback">
           <p>What is favourite feature of freecode camp?</p>
-          <select name="choices">
+          <select name="choices" id="choice">
             <option value="challenges">Challenges</option>
             <option value="projects">Projects</option>
             <option value="community">Community</option>
@@ -94,15 +93,13 @@
          
           <div class="suggestion">
             <p>Any comments or suggestions</p>
-              <textarea id="comment" name="comment" rows="4" cols="50">
-                 Enter you comments
+              <textarea id="comment" name="comment" rows="4" cols="50">Enter you comments
             </textarea>
         </div>
 
         <div>
             <input type="submit" valye="submit" id="submit">
         </div>
-    </div>
     </fieldset>
 </form>
 </body>
