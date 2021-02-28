@@ -5,12 +5,12 @@ body,html {
 }
 
 * {
-    box-size: border-b;
+    box-sizing: border-box;
 }
 
 
-.box {
+#survey-form {
     background-color: cadetblue;
     margin: 0 auto;
-    padding: 0;
+    width: 50%;
 }

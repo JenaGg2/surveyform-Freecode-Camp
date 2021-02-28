@@ -10,17 +10,17 @@
 </head>
 <body>
     <header>
-        <form id="survey-form" action="index.html" method="post">
         <h1 id="title">freeCodecamp Survey Form</h1>
         <p id="description">Thank you for taking the time to help us to improve the platform</p>
-        </header>
+    </header>
+        <form id="survey-form" action="index.html" method="post">
         <fieldset>
          <div class="box">
           <div class="demographic">
             <label for="name" id="name-label">Name</label><br>
-            <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
             <label for="email" id="email-label">Email</label><br>
-            <input type="email" id="Email" name="email" placeholder="Enter your email address"> <br>
+            <input type="email" id="Email" name="email" placeholder="name@hotmail.com" required> <br>
             <label for="age" id="number-label">Age</label><br>
             <input type="number" id="age" name="number"><br>
         </div>
