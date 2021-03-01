@@ -8,22 +8,21 @@ body {
     text-align: center;
     background-color: rgb(105, 105, 236);
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 600px;
     }
 
+
+#survey-form {
+    background-color: cadetblue;
+    max-width: 600px;
+    margin: 0 auto;
+}
 
 fieldset {
-    background-color: cadetblue;
+
     text-align: left;
     border-radius: 10px;
-    margin: auto;
-
-
-    }
-
-.survey-form {
-    text-align: center;
-}
+    
+ }
 
 
 .demographic {
